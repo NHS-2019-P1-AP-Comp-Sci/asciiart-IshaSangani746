@@ -17,11 +17,28 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void main(String [] args) {
+		speechBubbles();
+		friends();
+		grass();
+		caption(); 
+	}
+	public static void speechBubbles() {
+		System.out.println("(_\"Hi!\"_)(_\"How are you?\"_)");
+		System.out.println("    V      V ");
+	}
+	public static void friends() {
+		System.out.println("  O      __     ");
+		System.out.println(" (^^)  /(^^)\\   /\\");
+		System.out.println(" \\||/   \\||/   //\\\\");
+		System.out.println(" /  \\   /  \\  ///\\\\\\");
+	}
+	public static void grass() {
+		System.out.println("^^^^^====^^^^^^^^^^^^^");
+		System.out.println("^^^^^====^^^^^^^^^^^^^");
+	}
+		
+	public static void caption() {
+		System.out.println("Two friends greet each other in a field. ");
 	}
 }
